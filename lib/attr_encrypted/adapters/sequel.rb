@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-if defined?(Sequel)
+if defined?(Sequel) && defined?(Sequel::Model)
   module AttrEncrypted
     module Adapters
       module Sequel
